@@ -43,7 +43,7 @@ class Img2TxtClient:
                 raise ValueError(f"outputStructure must be valid JSON: {e}")
             payload["outputStructure"] = parsed
         headers = {**self._headers, "Content-Type": "application/json"}
-        resp = requests.post(url, headers=headers, json=payload)
+        resp = requests.post(url, headers=headers, json=json.dumps(payload))
         resp.raise_for_status()
         data = resp.json()
         if not data.get("success", True):
