@@ -1,17 +1,17 @@
-# img2txt-python-sdk
+# img2txt.io Python Package
 
-A Python SDK for the [img2txt.io](https://img2txt.io) API. Easily upload images and convert them to plain text or structured output programmatically.
+A Python Package for the [img2txt.io](https://img2txt.io) API. Easily upload images and convert them to plain text or structured output programmatically.
 
 ## Installation
 
-```powershell
+```bash
 pip install img2txtio
 ```
 
 Or install directly from source:
 
-```powershell
-git clone https://github.com/yourusername/img2txt-python-sdk.git
+```bash
+git clone https://github.com/Astro-gram/img2txt-python-package.git
 cd img2txt-python-sdk
 pip install .
 ```
