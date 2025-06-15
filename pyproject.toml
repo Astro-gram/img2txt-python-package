@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "img2txtio"
+version = "0.0.1"
+authors = [
+  { name="Ben Webster", email="ben@wbxdigital.com" },
+]
+description = "A simple SDK for using the Img2Txt API."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.32.4",
+]
+
+[project.urls]
+Homepage = "https://img2txt.io"
+Issues = "https://img2txt.io/#contact"
